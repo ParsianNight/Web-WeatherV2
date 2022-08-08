@@ -91,7 +91,7 @@ app.get('*', (req,res) => {
 
 // app.com
 
-app.listen(3000,() => {
+app.listen(port,() => {
     
 
     console.log('Running on port 3000')
